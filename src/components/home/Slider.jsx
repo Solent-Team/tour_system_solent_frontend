@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import imagefirst from '../../asset/images/firstslide.jpg'
+import imagesecond from '../../asset/images/secondslide.jpg'
+import imagethird from '../../asset/images/thirdslide.jpg'
 
 
 class Slider extends Component {
@@ -11,42 +14,37 @@ class Slider extends Component {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://assets.thehansindia.com/h-upload/2019/12/27/248830-worldtour.jpg"
+          src={imagefirst} 
           alt="First slide"
           style={{ height: '700px' }}
         />
         <Carousel.Caption>
-          <h3 style={{ color: 'black' }}>First slide label</h3>
-          <p style={{ color: 'black' }} >Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 style={{ color: 'white' }}>Travel to the land of greenery</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://assets.thehansindia.com/h-upload/2019/12/27/248830-worldtour.jpg"
+          src={imagesecond}
           alt="Second slide"
           style={{ height: '700px' }}
 
         />
 
         <Carousel.Caption>
-          <h3 style={{ color: 'black' }}>Second slide label</h3>
-          <p style={{ color: 'black' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 style={{ color: 'white' }}>Countless beaches to visit and relax</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://assets.thehansindia.com/h-upload/2019/12/27/248830-worldtour.jpg"
+          src={imagethird}
           alt="Third slide"
           style={{ height: '700px' }}
         />
 
         <Carousel.Caption>
-          <h3 style={{ color: 'black' }}>Third slide label</h3>
-          <p style={{ color: 'black' }}>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3 style={{ color: 'white' }}>Travel with us to enjoy countless more sunsets</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -57,3 +55,7 @@ class Slider extends Component {
 }
 
 export default Slider
+
+
+
+//<p style={{ color: 'white' }} >Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
