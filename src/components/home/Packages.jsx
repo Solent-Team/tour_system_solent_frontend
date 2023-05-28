@@ -25,7 +25,7 @@ class Packages extends Component {
                 </div>
                 <Container fluid={true}>
                     <Row>
-                    <Col className="p-1 ml-2" xl={2} lg={2} md={2} sm={4} xs={6}>
+                    <Col className="p-1 ml-2" xl={3} lg={3} md={3} sm={4} xs={6}>
                             <Card style={{ width: '20rem', margin: '10px' }}>
                                 <Card.Img variant="top" src={imagesaf} style={{ borderRadius: '0', objectFit: 'cover' }} />
                                 <Card.Body>
