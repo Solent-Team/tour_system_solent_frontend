@@ -18,7 +18,7 @@ class AppRoute extends Component {
             <Route exact path="/contact" element={< Contact/>} />
             <Route exact path="/tourpackages" element={< TourPage/>} />
             <Route exact path="/login" element={< LoginPage/>} />
-            <Route exact path="/subscribe" element={< SubscriberPage/>} />
+            <Route exact path="/subscriber" element={< SubscriberPage/>} />
             <Route exact path="/faq" element={< FaqPage/>} />
 
             <Route exact path="/admin/bookingdetails" element={<AllBookingDetailsPage/>} />
