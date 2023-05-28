@@ -39,6 +39,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">7 Days</Badge>
+                                            <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
