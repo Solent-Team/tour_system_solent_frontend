@@ -1,7 +1,16 @@
 import React, { Component, Fragment } from 'react'
+import { Link } from 'react-router-dom'
 import { Button, Col, Card, Row, Badge } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container';
 import image from '../../asset/images/IMG1.png'
+import imagesaf from '../../asset/images/saftour.jpg'
+import imagepop from '../../asset/images/popspot.jpg'
+import imagefam from '../../asset/images/famtrip.jpg'
+import imagedis from '../../asset/images/discover.jpg'
+import imagehonmoon from '../../asset/images/honmoon.jpg'
+import imagejaff from '../../asset/images/jaffna.jpg'
+import imagecol from '../../asset/images/colombo.jpg'
+import imagekan from '../../asset/images/kandy.jpg'
 import { Rating } from '@mui/material';
 
 
@@ -11,87 +20,18 @@ class Packages extends Component {
             <Fragment>
                 <div className="text-center p-1 mt-2">
                     <hr className="line" />
-                    <h1>Sri Lanka Holiday & Tour Packages 2023</h1>
+                    <h2>Sri Lanka Holiday & Tour Packages 2023</h2>
 
                 </div>
                 <Container fluid={true}>
                     <Row>
-                        <Col xl={3} lg={3} md={2} sm={4} xs={6}>
+                    <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
                             <Card style={{ width: '20rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Img variant="top" src={imagesaf} style={{ borderRadius: '0', objectFit: 'cover' }} />
                                 <Card.Body>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <Card.Title>Card Title</Card.Title>
-                                            <Row>
-                                                <Col md={8}>
-                                                    <i className='fa fa-home'></i>&nbsp;
-                                                    <i className='fa fa-bed'></i>&nbsp;
-                                                    <i className='fa fa-car'></i>&nbsp;
-                                                    <i className='fa fa-cutlery'></i>
-                                                </Col>
-                                                <Col md={4}>
-                                                <Badge bg="success">7 Days</Badge>
-                                                </Col>
-                                            </Row>
-
-                                        </div>
-                                        <Rating name="size-small" defaultValue={2} size="small" />
-                                    </div>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
-                                    <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
-                                        </a>
-                                    </Container>
-                                </Card.Footer>
-                            </Card>
-                        </Col>
-
-                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
-                            <Card style={{ width: '20rem', margin: '10px' }} className="shadow">
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
-                                <Card.Body>
-
-                                            <Card.Title>Card Title</Card.Title>
-                                            <Row>
-                                                <Col md={8}>
-                                                    <i className='fa fa-home'></i>&nbsp;
-                                                    <i className='fa fa-bed'></i>&nbsp;
-                                                    <i className='fa fa-car'></i>&nbsp;
-                                                    <i className='fa fa-cutlery'></i>
-                                                </Col>
-                                                <Col md={4}>
-                                                <Badge bg="success">7 Days</Badge>
-                                                </Col>
-                                            </Row>
-                                            <Rating name="size-small" defaultValue={4} size="small" readOnly/>
-                                                                            
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
-                                    <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
-                                        </a>
-                                    </Container>
-                                </Card.Footer>
-                            </Card>
-                        </Col>
-
-                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
-                            <Card style={{ width: '20rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
-                                <Card.Body>
-                                    <div className="d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <Card.Title>Card Title</Card.Title>
+                                            <Card.Title>Sri Lanka Safari Tour</Card.Title>
                                             <i className='fa fa-home'></i>&nbsp;
                                             <i className='fa fa-bed'></i>&nbsp;
                                             <i className='fa fa-car'></i>&nbsp;
@@ -101,14 +41,19 @@ class Packages extends Component {
                                             <Badge bg="success">7 Days</Badge>
                                         </div>
                                     </div>
+                                    <Card.Text className="text-center">
+                                        Enjoy the exciting adventure of a safari with your loved ones
+                                    </Card.Text>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        <Container className="pkg-price">
+                                                Price - Rs. 180,000 (GBP 475)                                           
+                                        </Container>
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
                                     <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/SafariTour" style={{ color: 'white' }}>Click here for more information!</Link>                                 
                                         </a>
                                     </Container>
                                 </Card.Footer>
@@ -117,11 +62,116 @@ class Packages extends Component {
 
                         <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
                             <Card style={{ width: '20rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Img variant="top" src={imagepop} style={{ borderRadius: '0', objectFit: 'cover' }} />
                                 <Card.Body>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <Card.Title>Card Title</Card.Title>
+                                            <Card.Title>Popular in Sri Lanka</Card.Title>
+                                            <i className='fa fa-home'></i>&nbsp;
+                                            <i className='fa fa-bed'></i>&nbsp;
+                                            <i className='fa fa-car'></i>&nbsp;
+                                            <i className='fa fa-cutlery'></i>
+                                        </div>
+                                        <div>
+                                            <Badge bg="success">12 Days</Badge>
+                                        </div>
+                                    </div>
+                                    <Card.Text className="text-center">
+                                        Sri Lanka's most popular locations will satisfy your needs
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <Container className="pkg-price">
+                                                Price - Rs. 220,000 (GBP 581)                                           
+                                        </Container>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
+                                    <Container className="text-center">
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/Popular" style={{ color: 'white' }}>Click here for more information!</Link>                                 
+                                        </a>
+                                    </Container>
+                                </Card.Footer>
+                            </Card>
+                        </Col>
+
+                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
+                            <Card style={{ width: '20rem', margin: '10px' }}>
+                                <Card.Img variant="top" src={imagefam} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Body>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <Card.Title>Family Trip to Sri Lanka</Card.Title>
+                                            <i className='fa fa-home'></i>&nbsp;
+                                            <i className='fa fa-bed'></i>&nbsp;
+                                            <i className='fa fa-car'></i>&nbsp;
+                                            <i className='fa fa-cutlery'></i>
+                                        </div>
+                                        <div>
+                                            <Badge bg="success">15 Days</Badge>
+                                        </div>
+                                    </div>
+                                    <Card.Text className="text-center">
+                                        Enjoy the excitement of spending time with your family in Sri Lanka
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <Container className="pkg-price">
+                                                Price - Rs. 280,000 (GBP 740)                                           
+                                        </Container>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
+                                    <Container className="text-center">
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/FamilyTrip" style={{ color: 'white' }}>Click here for more information!</Link>                                 
+                                        </a>
+                                    </Container>
+                                </Card.Footer>
+                            </Card>
+                        </Col>
+
+                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
+                            <Card style={{ width: '20rem', margin: '10px' }}>
+                                <Card.Img variant="top" src={imagedis} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Body>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <Card.Title>Discover Sri Lanka</Card.Title>
+                                            <i className='fa fa-home'></i>&nbsp;
+                                            <i className='fa fa-bed'></i>&nbsp;
+                                            <i className='fa fa-car'></i>&nbsp;
+                                            <i className='fa fa-cutlery'></i>
+                                        </div>
+                                        <div>
+                                            <Badge bg="success">10 Days</Badge>
+                                        </div>
+                                    </div>
+                                    <Card.Text className="text-center">
+                                        Discover the endless adventures and suprises in Sri Lanka
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <Container className="pkg-price">
+                                                Price - Rs. 250,000 (GBP 661)                                           
+                                        </Container>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
+                                    <Container className="text-center">
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/Discover" style={{ color: 'white' }}>Click here for more information!</Link>                                 
+                                        </a>
+                                    </Container>
+                                </Card.Footer>
+                            </Card>
+                        </Col>
+
+                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
+                            <Card style={{ width: '20rem', margin: '10px' }}>
+                                <Card.Img variant="top" src={imagehonmoon} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Body>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <Card.Title>Honeymoon in Sri Lanka</Card.Title>
                                             <i className='fa fa-home'></i>&nbsp;
                                             <i className='fa fa-bed'></i>&nbsp;
                                             <i className='fa fa-car'></i>&nbsp;
@@ -131,14 +181,19 @@ class Packages extends Component {
                                             <Badge bg="success">7 Days</Badge>
                                         </div>
                                     </div>
+                                    <Card.Text className="text-center">
+                                        Spend time and relax with your significant other in Sri Lanka 
+                                    </Card.Text>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        <Container className="pkg-price">
+                                                Price - Rs. 100,000 (GBP 264)                                           
+                                        </Container>
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
                                     <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/Honeymoon" style={{ color: 'white' }}>Click here for more information!</Link>                                 
                                         </a>
                                     </Container>
                                 </Card.Footer>
@@ -147,11 +202,46 @@ class Packages extends Component {
 
                         <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
                             <Card style={{ width: '20rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Img variant="top" src={imagejaff} style={{ borderRadius: '0', objectFit: 'cover' }} />
                                 <Card.Body>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <Card.Title>Card Title</Card.Title>
+                                            <Card.Title>Jaffna Tour</Card.Title>
+                                            <i className='fa fa-home'></i>&nbsp;
+                                            <i className='fa fa-bed'></i>&nbsp;
+                                            <i className='fa fa-car'></i>&nbsp;
+                                            <i className='fa fa-cutlery'></i>
+                                        </div>
+                                        <div>
+                                            <Badge bg="success">8 Days</Badge>
+                                        </div>
+                                    </div>
+                                    <Card.Text className="text-center">
+                                        Visit Jaffna for an amazing experience and learn about its rich history
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <Container className="pkg-price">
+                                                Price - Rs. 150,000 (GBP 396)                                           
+                                        </Container>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
+                                    <Container className="text-center">
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/JaffnaTour" style={{ color: 'white' }}>Click here for more information!</Link>                                 
+                                        </a>
+                                    </Container>
+                                </Card.Footer>
+                            </Card>
+                        </Col>
+
+                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
+                            <Card style={{ width: '20rem', margin: '10px' }}>
+                                <Card.Img variant="top" src={imagecol} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Body>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <Card.Title>Colombo Tour</Card.Title>
                                             <i className='fa fa-home'></i>&nbsp;
                                             <i className='fa fa-bed'></i>&nbsp;
                                             <i className='fa fa-car'></i>&nbsp;
@@ -161,14 +251,19 @@ class Packages extends Component {
                                             <Badge bg="success">7 Days</Badge>
                                         </div>
                                     </div>
+                                    <Card.Text className="text-center">
+                                        Visit Colombo to have loads of fresh moments to look forward to 
+                                    </Card.Text>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        <Container className="pkg-price">
+                                                Price - Rs. 170,000 (GBP 449)                                           
+                                        </Container>
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
                                     <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/ColomboTour" style={{ color: 'white' }}>Click here for more information!</Link>                                 
                                         </a>
                                     </Container>
                                 </Card.Footer>
@@ -177,98 +272,40 @@ class Packages extends Component {
 
                         <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
                             <Card style={{ width: '20rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
+                                <Card.Img variant="top" src={imagekan} style={{ borderRadius: '0', objectFit: 'cover' }} />
                                 <Card.Body>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <Card.Title>Card Title</Card.Title>
+                                            <Card.Title>Kandy Tour</Card.Title>
                                             <i className='fa fa-home'></i>&nbsp;
                                             <i className='fa fa-bed'></i>&nbsp;
                                             <i className='fa fa-car'></i>&nbsp;
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">7 Days</Badge>
+                                            <Badge bg="success">8 Days</Badge>
                                         </div>
                                     </div>
+                                    <Card.Text className="text-center">
+                                        Visit Kandy for a once in a lifetime experience with your loved ones
+                                    </Card.Text>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        <Container className="pkg-price">
+                                                Price - Rs. 160,000 (GBP 422)                                           
+                                        </Container>
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
+                                <Card.Footer style={{ backgroundColor: '#022fd3' }}>
                                     <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
+                                        <a href="#" className="btn btn-link w-100">  
+                                            <Link to="/KandyTour" style={{ color: 'white' }}>Click here for more information!</Link>                                 
                                         </a>
                                     </Container>
                                 </Card.Footer>
                             </Card>
                         </Col>
-
-                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
-                            <Card style={{ width: '20rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
-                                <Card.Body>
-                                    <div className="d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <Card.Title>Card Title</Card.Title>
-                                            <i className='fa fa-home'></i>&nbsp;
-                                            <i className='fa fa-bed'></i>&nbsp;
-                                            <i className='fa fa-car'></i>&nbsp;
-                                            <i className='fa fa-cutlery'></i>
-                                        </div>
-                                        <div>
-                                            <Badge bg="success">7 Days</Badge>
-                                        </div>
-                                    </div>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
-                                    <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
-                                        </a>
-                                    </Container>
-                                </Card.Footer>
-                            </Card>
-                        </Col>
-
-                        <Col className="p-1 ml-2" xl={3} lg={3} md={2} sm={4} xs={6}>
-                            <Card style={{ width: '20rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={image} style={{ borderRadius: '0', objectFit: 'cover' }} />
-                                <Card.Body>
-                                    <div className="d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <Card.Title>Card Title</Card.Title>
-                                            <i className='fa fa-home'></i>&nbsp;
-                                            <i className='fa fa-bed'></i>&nbsp;
-                                            <i className='fa fa-car'></i>&nbsp;
-                                            <i className='fa fa-cutlery'></i>
-                                        </div>
-                                        <div>
-                                            <Badge bg="success">7 Days</Badge>
-                                        </div>
-                                    </div>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#0291d3' }}>
-                                    <Container className="text-center">
-                                        <a href="#" className="btn btn-link w-100" style={{ color: 'white' }}>
-                                            More Details
-                                        </a>
-                                    </Container>
-                                </Card.Footer>
-                            </Card>
-                        </Col>
-
                     </Row>
                 </Container>
-
-
             </Fragment>
         )
     }
