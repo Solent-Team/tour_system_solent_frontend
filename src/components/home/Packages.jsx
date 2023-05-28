@@ -39,7 +39,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">7 Days</Badge>
-                                            <Rating name="size-small" defaultValue={4} size="small" readOnly/>
+                                            <Rating name="size-small" defaultValue={5} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
@@ -75,6 +75,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">12 Days</Badge>
+                                            <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
@@ -110,6 +111,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">15 Days</Badge>
+                                            <Rating name="size-small" defaultValue={5} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
@@ -145,6 +147,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">10 Days</Badge>
+                                            <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
@@ -180,6 +183,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">7 Days</Badge>
+                                            <Rating name="size-small" defaultValue={5} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
@@ -207,7 +211,7 @@ class Packages extends Component {
                                 <Card.Body>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <Card.Title>Jaffna Tour</Card.Title>
+                                            <Card.Title>Jaffna Tour with your family</Card.Title>
                                             <i className='fa fa-home'></i>&nbsp;
                                             <i className='fa fa-bed'></i>&nbsp;
                                             <i className='fa fa-car'></i>&nbsp;
@@ -215,6 +219,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">8 Days</Badge>
+                                            <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
@@ -242,7 +247,7 @@ class Packages extends Component {
                                 <Card.Body>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <Card.Title>Colombo Tour</Card.Title>
+                                            <Card.Title>Colombo Tour with your family</Card.Title>
                                             <i className='fa fa-home'></i>&nbsp;
                                             <i className='fa fa-bed'></i>&nbsp;
                                             <i className='fa fa-car'></i>&nbsp;
@@ -250,6 +255,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">7 Days</Badge>
+                                            <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">
@@ -277,7 +283,7 @@ class Packages extends Component {
                                 <Card.Body>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <Card.Title>Kandy Tour</Card.Title>
+                                            <Card.Title>Kandy Tour with your family</Card.Title>
                                             <i className='fa fa-home'></i>&nbsp;
                                             <i className='fa fa-bed'></i>&nbsp;
                                             <i className='fa fa-car'></i>&nbsp;
@@ -285,6 +291,7 @@ class Packages extends Component {
                                         </div>
                                         <div>
                                             <Badge bg="success">8 Days</Badge>
+                                            <Rating name="size-small" defaultValue={5} size="small" readOnly/>
                                         </div>
                                     </div>
                                     <Card.Text className="text-center">

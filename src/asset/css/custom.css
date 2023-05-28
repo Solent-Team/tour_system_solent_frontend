@@ -17,6 +17,14 @@
   text-align: center
 }
 
+.cont2{
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .icon-blue {
     color: blue;
   }
