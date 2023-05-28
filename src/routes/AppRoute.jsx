@@ -11,6 +11,7 @@ import AboutUsPage from '../pages/AboutUsPage'
 import HowToPurchasePage from '../pages/HowToPurchasePage'
 import PrivacyPolicyPage from '../pages/PrivacyPolicyPage'
 import RefundPolicyPage from '../pages/RefundPolicyPage'
+import BookingDetailsEditPage from '../pages/BookingDetailsEditPage'
 
 class AppRoute extends Component {
   render() {
@@ -24,13 +25,13 @@ class AppRoute extends Component {
             <Route exact path="/login" element={< LoginPage/>} />
             <Route exact path="/subscriber" element={< SubscriberPage/>} />
             <Route exact path="/faq" element={< FaqPage/>} />
-
             <Route exact path="/admin/bookingdetails" element={<AllBookingDetailsPage/>} />
-
             <Route exact path="/about-us" element={<AboutUsPage/>} />
             <Route exact path="/HowToPurchase" element={<HowToPurchasePage/>} />
             <Route exact path="/PrivacyPolicy" element={<PrivacyPolicyPage/>} />
             <Route exact path="/RefundPolicy" element={<RefundPolicyPage/>} />
+
+            <Route exact path='/editbooking/:id' element={<BookingDetailsEditPage/>} />
 
 
 
