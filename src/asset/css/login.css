@@ -1,0 +1,208 @@
+.login-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+
+
+.login-form {
+
+    width: 400px;
+
+    padding: 100px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    background-color: rgba(67, 67, 68, 0.44);
+
+    transition-duration: 0.5s;
+
+
+
+}
+
+.login-form:hover {
+
+    width: 400px;
+
+    padding: 100px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.84);
+
+    transition-duration: 0.5s;
+
+}
+
+.login-label {
+
+    font-size: 20px;
+
+    text-align: left;
+
+    color: #fff;
+
+
+
+}
+
+
+
+.login-heading {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+.login-form label {
+
+    display: block;
+
+    width: 100%;
+
+    margin-bottom: 0px;
+
+    margin-left: -50px;
+
+}
+
+
+
+.login-input {
+
+    height: 45px;
+
+    width: 300px;
+
+    margin-left: 10px;
+
+    border-radius: 7px;
+
+    font-size: medium;
+
+    margin-top: 1px;
+
+}
+
+
+
+.login-button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    margin-top: 20px;
+
+    background-color: #007bff;
+
+    color: #d0d6e4;
+
+    cursor: pointer;
+
+}
+
+
+
+.login-button:hover {
+
+    background-color: #0056b3;
+
+}
+
+
+
+.login-title {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    margin-top: 20px;
+
+    color: #ccc;
+
+}
+
+
+
+.img {
+    width: 100px;
+
+    height: 100px;
+
+    border-radius: 20%;
+
+    margin-top: -150px;
+
+    margin-left: 40px;
+
+    left: calc(50% - 50%);
+
+    background: url('../../asset/images/log1.png');
+
+    background-size: 100% 100%;
+
+    border: solid #fff;
+
+
+
+}
+
+.login-container {
+
+    background-image: url('../../asset/images/tour2.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    text-align: justify;
+
+
+
+}
+
+.top-title {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    margin-top: 20px;
+
+    font-size: 50px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    font-family: sans-serif;
+
+}

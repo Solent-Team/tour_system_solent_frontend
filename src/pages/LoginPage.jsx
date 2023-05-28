@@ -9,16 +9,9 @@ class LoginPage extends Component {
      <Fragment>
 
 
-<div style={{ marginTop: '70px', position: 'relative' }}>
-<Menu />
-
-</div>
-
        
-
 <Login />
 
-        <Footer />
 
      </Fragment>
     )
