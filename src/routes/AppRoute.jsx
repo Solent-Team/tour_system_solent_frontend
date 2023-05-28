@@ -7,6 +7,7 @@ import LoginPage from '../pages/LoginPage'
 import SubscriberPage from '../pages/SubscriberPage'
 import FaqPage from '../pages/FaqPage'
 import AllBookingDetailsPage from '../pages/AllBookingDetailsPage'
+import ContactPage from '../pages/ContactPage'
 
 class AppRoute extends Component {
   render() {
@@ -15,7 +16,7 @@ class AppRoute extends Component {
 
         <Routes>
             <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/contact" element={< Contact/>} />
+            <Route exact path="/contact" element={<ContactPage />} />
             <Route exact path="/tourpackages" element={< TourPage/>} />
             <Route exact path="/login" element={< LoginPage/>} />
             <Route exact path="/subscriber" element={< SubscriberPage/>} />
