@@ -28,12 +28,12 @@ export class Subscriber extends Component {
       <div className="subscribe-container">
 
         <Fragment>
-          <div className="top-title">"Be the first to know about upcoming tours, cultural
-            events, and immersive experiences by subscribing to our tourism newsletter." </div>
+          <div className="top-title">Be the first to know about upcoming tours, cultural
+            events, and immersive experiences by subscribing to our Tourism Newsletter </div>
 
           <form className="subscribe-form" onSubmit={this.handleSubmit}>
 
-            <h2 className="subscribe-title">Subscribe Now !</h2>
+            <h2 className="subscribe-title">Subscribe now by providing your Email below</h2>
             <br /><br />
             <label className="subscribe-label">
               E-mail:
