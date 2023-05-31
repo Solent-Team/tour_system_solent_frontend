@@ -34,15 +34,15 @@ class Login extends Component {
 
 
         <Fragment>
-          <div className="top-title">Welcome to Our Website</div> {/* Add the text here */}
+          <div className="top-title">Welcome to Solent Tours!</div> 
 
           <form className="login-form" onSubmit={this.handleSubmit}>
 
             <div class="img"></div>
-            <h2 className="login-title">Secuer Login</h2> {/* Fixed login title */}
+            <h2 className="login-title">Admin Login</h2> 
 
             <label className="login-label">
-              Username
+              Username:
               <input
                 type="text"
                 className="login-input"
