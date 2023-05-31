@@ -30,6 +30,7 @@ class Footer extends Component {
               <Link to="/Howtopurchase" className="footer-link">How To Purchase</Link><br></br>
               <Link to="/Privacypolicy" className="footer-link"> Privacy Policy</Link><br></br>
               <Link to="/Refundpolicy" className="footer-link"> Refund Policy </Link><br></br>
+              <Link to="/Subscriber" className="footer-link"> Subscribe to our Newsletter</Link><br></br>
             </Col>
           </Row>
         </Container>
