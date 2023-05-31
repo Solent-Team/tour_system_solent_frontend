@@ -18,6 +18,11 @@
   color: rgb(0, 0, 0);
 }
 
+.pkg-price{
+  text-align: center;
+  font-weight: bold;
+}
+
 .mt-4{
   text-align: center
 }
@@ -29,6 +34,19 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+  .p-2-1,
+  .p-2-2,
+  .p-2-3{
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    text-align: center
+  }
+
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
 
 .icon-blue {
     color: blue;
