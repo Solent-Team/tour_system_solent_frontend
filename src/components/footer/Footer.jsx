@@ -39,7 +39,7 @@ class Footer extends Component {
         <Container fluid={true} className='text-center m-0 pt-3 pb-1 bg-dark'>
           <Container>
             <Row>
-              <h6 className='text-white'>© Solent Travels | All rights reserved</h6>
+              <h6 className='text-white'>© Solent Tours | All rights reserved</h6>
             </Row>
           </Container>
         </Container>
