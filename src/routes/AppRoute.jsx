@@ -9,6 +9,7 @@ import LoginPage from '../pages/LoginPage'
 import SubscriberPage from '../pages/SubscriberPage'
 import FaqPage from '../pages/FaqPage'
 import AllBookingDetailsPage from '../pages/AllBookingDetailsPage'
+import ContactPage from '../pages/ContactPage'
 import AboutUsPage from '../pages/AboutUsPage'
 import HowToPurchasePage from '../pages/HowToPurchasePage'
 import PrivacyPolicyPage from '../pages/PrivacyPolicyPage'
@@ -24,6 +25,7 @@ import BlogBeachPage from '../pages/BlogBeachPage'
 import BlogEllaPage from '../pages/BlogEllaPage'
 import BlogGalleFortPage from '../pages/BlogGalleFortPage'
 
+
 class AppRoute extends Component {
   render() {
     return (
@@ -31,8 +33,13 @@ class AppRoute extends Component {
 
         <Routes>
             <Route exact path="/" element={<HomePage />} />
+
+            <Route exact path="/contact" element={<ContactPage />} />
+            <Route exact path="/tourpackages" element={< TourPage/>} />
+
             <Route exact path="/contact" element={< Contact/>} />
             <Route exact path="/SafariTour" element={< TourPage/>} />
+
             <Route exact path="/login" element={< LoginPage/>} />
             <Route exact path="/subscriber" element={< SubscriberPage/>} />
             <Route exact path="/faq" element={< FaqPage/>} />
