@@ -8,13 +8,13 @@ class HowItsWork extends Component {
                 <hr className="line" />
                 <Container className="py-5" fluid={true}>
                 
-                    <h2 className="text-center">How Tower Packages Work</h2>
+                    <h2 className="text-center">How Our Tour Packages Work</h2>
                     
                     <Row className="mt-4">
                         <Col md={4} className="text-center">
                             <i className="fa fa-search fa-3x mb-3  icon-blue"></i>
                             <h4>Step 1</h4>
-                            <p>Explore available tower packages</p>
+                            <p>Explore available tour packages</p>
                         </Col>
                         <Col md={4} className="text-center">
                             <i className="fa fa-shopping-cart fa-3x mb-3 icon-green"></i>
@@ -24,7 +24,7 @@ class HowItsWork extends Component {
                         <Col md={4} className="text-center">
                             <i className="fa fa-check-circle fa-3x mb-3 icon-orange"></i>
                             <h4>Step 3</h4>
-                            <p>Confirm your order and make payment</p>
+                            <p>Confirm your order and make the payment</p>
                         </Col>
                     </Row>
                 </Container>

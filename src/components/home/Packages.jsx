@@ -38,7 +38,7 @@ class Packages extends Component {
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">7 Days</Badge>
+                                            <Badge bg="success">3 Days</Badge>
                                             <Rating name="size-small" defaultValue={5} size="small" readOnly/>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@ class Packages extends Component {
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">12 Days</Badge>
+                                            <Badge bg="success">7 Days</Badge>
                                             <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@ class Packages extends Component {
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">15 Days</Badge>
+                                            <Badge bg="success">5 Days</Badge>
                                             <Rating name="size-small" defaultValue={5} size="small" readOnly/>
                                         </div>
                                     </div>
@@ -146,7 +146,7 @@ class Packages extends Component {
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">10 Days</Badge>
+                                            <Badge bg="success">5 Days</Badge>
                                             <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
@@ -218,7 +218,7 @@ class Packages extends Component {
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">8 Days</Badge>
+                                            <Badge bg="success">3 Days</Badge>
                                             <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
@@ -254,7 +254,7 @@ class Packages extends Component {
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">7 Days</Badge>
+                                            <Badge bg="success">3 Days</Badge>
                                             <Rating name="size-small" defaultValue={4} size="small" readOnly/>
                                         </div>
                                     </div>
@@ -290,7 +290,7 @@ class Packages extends Component {
                                             <i className='fa fa-cutlery'></i>
                                         </div>
                                         <div>
-                                            <Badge bg="success">8 Days</Badge>
+                                            <Badge bg="success">3 Days</Badge>
                                             <Rating name="size-small" defaultValue={5} size="small" readOnly/>
                                         </div>
                                     </div>
