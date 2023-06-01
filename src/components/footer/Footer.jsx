@@ -30,6 +30,7 @@ class Footer extends Component {
               <Link to="/Howtopurchase" className="footer-link">How To Purchase</Link><br></br>
               <Link to="/Privacypolicy" className="footer-link"> Privacy Policy</Link><br></br>
               <Link to="/Refundpolicy" className="footer-link"> Refund Policy </Link><br></br>
+              <Link to="/Subscriber" className="footer-link"> Subscribe to our Newsletter</Link><br></br>
             </Col>
           </Row>
         </Container>
@@ -38,7 +39,7 @@ class Footer extends Component {
         <Container fluid={true} className='text-center m-0 pt-3 pb-1 bg-dark'>
           <Container>
             <Row>
-              <h6 className='text-white'>© Solent Travels | All rights reserved</h6>
+              <h6 className='text-white'>© Solent Tours | All rights reserved</h6>
             </Row>
           </Container>
         </Container>

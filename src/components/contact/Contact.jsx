@@ -10,11 +10,11 @@ class Contact extends Component {
      
      <Container className="py-5" fluid={true} >
   
-                    <h1 className="text-center"style={{color:'#020221'}}>Contact Us</h1>
+                    <h1 className="text-center">Contact Us</h1>
                     <Row className="mt-4">
                         <Col md={6} lg={4} xl={12} className="mb-4">
                            
-                            <p className='text-center'style={{fontWeight:'light', fontSize:'20px', color:'##252929'}}>We value your feedback and are here to assist you. If you have any questions, suggestions, or concerns, 
+                            <p className='text-center'style={{fontWeight:'light', fontSize:'15px',}}>We value your feedback and are here to assist you. If you have any questions, suggestions, or concerns, 
                                     please feel free to reach out to us. Our dedicated team is ready to provide the support you need.
                                     If you prefer, you can use the contact form below to send us a message directly. Please provide us with 
                                     your name, email address, and a brief description of your inquiry. We will get back to you as soon as possible.
@@ -25,7 +25,7 @@ class Contact extends Component {
                         </Col>
                    
     <div style={{ position: 'relative',top:'100%', left:'4% '}} className='col-md-4 col-lg-4'>
-      <Card style={{ width: '30rem', height: '35rem',backgroundColor:'#9fd2d6d0' }}>
+      <Card style={{ width: '20rem', height: '35rem' }}>
         <Card.Header className="text-center"style={{ fontSize:'20px'}} >Write to Us</Card.Header>
       <Card.Body>
         <Card.Text>

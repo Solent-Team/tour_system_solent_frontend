@@ -4,6 +4,7 @@ import Table from 'react-bootstrap/Table';
 import APICALL from '../../api/APICALL';
 import Badge from 'react-bootstrap/Badge';
 import { Button, Modal } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 
@@ -80,7 +81,11 @@ export class AllBookingDetails extends Component {
                 <td>{oderetStatusBadge}</td>
                 <td>
                     <Button onClick={this.handleShow} variant="primary" >View</Button> &nbsp;
-                    <Button variant="warning" >Edit</Button>
+                    <Button variant="warning" >
+                        <Link to={`/editbooking/${bookingdetails.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                            Edit
+                        </Link>
+                        </Button>
                 </td>
             </tr>
 

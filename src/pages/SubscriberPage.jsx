@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Menu from '../components/menu/Menu'
-import Footer from '../components/footer/Footer'
+
 import Subscriber from '../components/subscriber/Subscriber'
 
 class SubscriberPage extends Component {
@@ -8,13 +7,12 @@ class SubscriberPage extends Component {
     return (
       <Fragment>
 
-    <Menu />
-    <div style={{ marginTop: '70px', position: 'relative' }}>
+   
+    <div style={{ marginTop: '0', position: 'relative' }}>
     <Subscriber />
          </div>
 
 
-<Footer />
       </Fragment>
     )
   }

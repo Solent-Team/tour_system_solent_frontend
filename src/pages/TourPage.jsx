@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from 'react'
 import Menu from '../components/menu/Menu'
 import Footer from '../components/footer/Footer'
-import TourDetails from '../components/home/TourDetails'
+import SafariTour from '../components/fullpackages/SafariTour'
+
+                                                       /* This is the Tour Page for Safari Tour */
 
 class TourPage extends Component {
   render() {
@@ -9,11 +11,13 @@ class TourPage extends Component {
       <Fragment>
      <Menu />
      <div style={{ marginTop: '70px', position: 'relative' }}>
-          <TourDetails />
+          <SafariTour /> 
         </div>
 
       <Footer />
       </Fragment>
+
+      
     )
   }
 }
