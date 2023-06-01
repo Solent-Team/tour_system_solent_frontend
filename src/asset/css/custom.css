@@ -48,6 +48,10 @@
     padding-bottom: 1rem !important;
   }
 
+  .blog-design {
+    width: 100% !important;
+  }
+
 .icon-blue {
     color: blue;
   }

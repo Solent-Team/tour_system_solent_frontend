@@ -19,6 +19,10 @@ import HoneymoonTourPage from '../pages/HoneymoonTourPage'
 import JaffnaTourPage from '../pages/JaffnaTourPage'
 import ColomboTourPage from '../pages/ColomboTourPage'
 import KandyTourPage from '../pages/KandyTourPage'
+import BlogPopularPage from '../pages/BlogPopularPage'
+import BlogBeachPage from '../pages/BlogBeachPage'
+import BlogEllaPage from '../pages/BlogEllaPage'
+import BlogGalleFortPage from '../pages/BlogGalleFortPage'
 
 class AppRoute extends Component {
   render() {
@@ -58,6 +62,11 @@ class AppRoute extends Component {
             <Route exact path="/JaffnaTour" element={< JaffnaTourPage/>} />
             <Route exact path="/ColomboTour" element={< ColomboTourPage/>} />
             <Route exact path="/KandyTour" element={< KandyTourPage/>} />
+
+            <Route exact path="/BlogPopular" element={< BlogPopularPage/>} />
+            <Route exact path="/BlogBeach" element={< BlogBeachPage/>} />
+            <Route exact path="/BlogElla" element={< BlogEllaPage/>} />
+            <Route exact path="/BlogGalleFort" element={< BlogGalleFortPage/>} />
         </Routes>
 
       </Fragment>
