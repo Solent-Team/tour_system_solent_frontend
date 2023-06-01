@@ -10,7 +10,6 @@ import SubscriberPage from '../pages/SubscriberPage'
 import FaqPage from '../pages/FaqPage'
 import AllBookingDetailsPage from '../pages/AllBookingDetailsPage'
 import AboutUsPage from '../pages/AboutUsPage'
-import HowToPurchasePage from '../pages/HowToPurchasePage'
 import PrivacyPolicyPage from '../pages/PrivacyPolicyPage'
 import RefundPolicyPage from '../pages/RefundPolicyPage'
 import BookingDetailsEditPage from '../pages/BookingDetailsEditPage'
@@ -38,7 +37,6 @@ class AppRoute extends Component {
             <Route exact path="/faq" element={< FaqPage/>} />
             <Route exact path="/admin/bookingdetails" element={<AllBookingDetailsPage/>} />
             <Route exact path="/about-us" element={<AboutUsPage/>} />
-            <Route exact path="/HowToPurchase" element={<HowToPurchasePage/>} />
             <Route exact path="/PrivacyPolicy" element={<PrivacyPolicyPage/>} />
             <Route exact path="/RefundPolicy" element={<RefundPolicyPage/>} />
 

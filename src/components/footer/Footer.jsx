@@ -27,7 +27,6 @@ class Footer extends Component {
 
             <Col className="p-2-3" lg={4} md={4} sm={6} xs={12}>
               <h5 className="footer-menu-title">MORE INFO</h5>
-              <Link to="/Howtopurchase" className="footer-link">How To Purchase</Link><br></br>
               <Link to="/Privacypolicy" className="footer-link"> Privacy Policy</Link><br></br>
               <Link to="/Refundpolicy" className="footer-link"> Refund Policy </Link><br></br>
               <Link to="/Subscriber" className="footer-link"> Subscribe to our Newsletter</Link><br></br>
