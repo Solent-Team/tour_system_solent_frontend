@@ -24,6 +24,7 @@ import BlogPopularPage from '../pages/BlogPopularPage'
 import BlogBeachPage from '../pages/BlogBeachPage'
 import BlogEllaPage from '../pages/BlogEllaPage'
 import BlogGalleFortPage from '../pages/BlogGalleFortPage'
+import HotelsPage from '../pages/HotelsPage'
 
 
 class AppRoute extends Component {
@@ -51,7 +52,7 @@ class AppRoute extends Component {
 
             <Route exact path='/editbooking/:id' element={<BookingDetailsEditPage/>} />
 
-
+            <Route exact path="/hotels" element={<HotelsPage/>} />
 
 
 

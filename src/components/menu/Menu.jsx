@@ -32,6 +32,9 @@ class Menu extends Component {
                 
               </Nav>
               <Nav>
+               
+                <Nav.Link eventKey={2} href="/hotels">Hotels</Nav.Link>
+                <Nav.Link eventKey={2} href="/admin/bookingdetails">Bookings</Nav.Link>
                 <Nav.Link eventKey={2} href="/Login">Login</Nav.Link>
               </Nav>
             </Navbar.Collapse>

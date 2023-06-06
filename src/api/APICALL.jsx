@@ -14,6 +14,9 @@ class APICALL {
     return this.BaseUrl + "/bookingdetailsupdate/" + id;
   }
 
+  static Storehotel = this.BaseUrl + "/hotelpost"
+
+  static Gethotels = this.BaseUrl + "/hotelget"
 }
 
 export default APICALL
